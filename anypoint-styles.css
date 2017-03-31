@@ -1,0 +1,220 @@
+/* Anypoint styles */
+/*
+  Font face declarations
+*/
+/* DINProLight */
+@font-face {
+  font-family: "DIN Pro";
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/DINPro-Light.eot');
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/DINPro-Light.eot?#iefix') format('embedded-opentype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/DINPro-Light.woff2') format('woff2'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/DINPro-Light.woff') format('woff'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/DINPro-Light.ttf')  format('truetype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/DINPro-Light.svg') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}
+/* Regular - OpenSans */
+@font-face {
+  font-family: "Open Sans";
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Regular.eot');
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Regular.woff2') format('woff2'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Regular.woff') format('woff'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Regular.ttf')  format('truetype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+/* Semibold - OpenSansSemiBold */
+@font-face {
+  font-family: "Open Sans";
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Semibold.eot');
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Semibold.woff2') format('woff2'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Semibold.woff') format('woff'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Semibold.ttf')  format('truetype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Semibold.svg') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+/* Bold - OpenSansBold */
+@font-face {
+  font-family: "Open Sans";
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Bold.eot');
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Bold.woff2') format('woff2'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Bold.woff') format('woff'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Bold.ttf')  format('truetype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+/* Light - OpenSansLight */
+@font-face {
+  font-family: "Open Sans";
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Light.eot');
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Light.woff2') format('woff2'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Light.woff') format('woff'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Light.ttf')  format('truetype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-Light.svg') format('svg');
+  font-weight: 200;
+  font-style: normal;
+}
+/* Light Italic - OpenSansLightItalic */
+@font-face {
+  font-family: "Open Sans";
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-LightItalic.eot');
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-LightItalic.eot?#iefix') format('embedded-opentype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-LightItalic.woff2') format('woff2'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-LightItalic.woff') format('woff'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-LightItalic.ttf')  format('truetype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/OpenSans-LightItalic.svg') format('svg');
+  font-weight: 200;
+  font-style: italic;
+}
+/* Monospaced (for code examples, logs, etc) */
+@font-face {
+  font-family: "Source Code Pro";
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/SourceCodePro-Regular.eot');
+  src: url('https://d2mrfksxwk2en8.cloudfront.net/fonts/SourceCodePro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/SourceCodePro-Regular.woff2') format('woff2'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/SourceCodePro-Regular.woff') format('woff'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/SourceCodePro-Regular.ttf')  format('truetype'),
+      url('https://d2mrfksxwk2en8.cloudfront.net/fonts/SourceCodePro-Regular.svg') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+/* NOTE
+  html is set to 62.5% so that all the REM measurements throughout
+  are based on 10px sizing. So basically 1.5rem = 15px :) */
+html {
+  font-size: 62.5%;
+}
+.anypoint-styles {
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  margin: 0;
+}
+.anypoint-styles * {
+  box-sizing: border-box;
+}
+.anypoint-styles a {
+  text-decoration: none;
+}
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.anypoint-styles h1, .anypoint-styles h2, .anypoint-styles h3, .anypoint-styles h4, .anypoint-styles h5, .anypoint-styles h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-weight: 300;
+  color: #3A3B3C;
+}
+
+
+.anypoint-styles h1 {
+  font-size: 3.0rem;
+  letter-spacing: -.05rem;
+}
+
+
+.anypoint-styles h2 {
+  font-size: 2.5rem;
+  letter-spacing: -.03rem;
+}
+
+
+.anypoint-styles h3 {
+  font-size: 2.0rem;
+  letter-spacing: -.025rem;
+}
+
+
+.anypoint-styles h4 {
+  font-size: 1.8rem;
+  letter-spacing: -.02rem;
+}
+
+
+.anypoint-styles h5 {
+  font-size: 1.6rem;
+  letter-spacing: -.02rem;
+}
+
+
+.anypoint-styles h6 {
+  font-size: 1.2rem;
+  letter-spacing: 0;
+}
+
+
+.anypoint-styles p {
+  font-size: 1.4rem;
+  letter-spacing: 0;
+}
+
+
+.anypoint-styles blockquote {
+  font-size: 1.8rem;
+}
+
+
+.anypoint-styles h1,
+    .anypoint-styles h2,
+    .anypoint-styles h3,
+    .anypoint-styles h4,
+    .anypoint-styles h5,
+    .anypoint-styles .h1,
+    .anypoint-styles .h2,
+    .anypoint-styles .h3,
+    .anypoint-styles .h4,
+    .anypoint-styles .h5 {
+  font-family: DIN Pro, sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.anypoint-styles h6,
+    .anypoint-styles .h6,
+    .anypoint-styles p {
+  color: #58595A;
+}
+
+
+.anypoint-styles h6,
+    .anypoint-styles .h6 {
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.anypoint-styles p {
+  font-family: Open Sans, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.anypoint-styles blockquote {
+  color: #6B6C6D;
+  font-family: Open Sans, sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
